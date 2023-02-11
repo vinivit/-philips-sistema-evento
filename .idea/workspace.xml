@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f463a427-5483-4c44-a8ba-1974155c3297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Certificado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inscricao.java" afterDir="false" />
+    <list default="true" id="f463a427-5483-4c44-a8ba-1974155c3297" name="Changes" comment="criado pacotes">
+      <change afterPath="$PROJECT_DIR$/src/evento/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evento/Cadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Certificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Certificado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Evento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Inscricao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -69,6 +72,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="criado pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado pacotes" />
   </component>
 </project>
