@@ -22,7 +22,7 @@ public class Evento {
  
     }
 
-    //Get e Set
+    //Get's e Set's 
 
     public String getNome() {
         return nome;

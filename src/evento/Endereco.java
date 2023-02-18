@@ -18,8 +18,8 @@ public class Endereco {
         this.pais = pais;
     }
 
-    //Get e Set
-    
+    //Get's e Set's 
+
     public String getRua() {
         return rua;
     }

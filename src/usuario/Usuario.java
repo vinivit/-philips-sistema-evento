@@ -6,6 +6,7 @@ public class Usuario {
     private String telefone;
 
     // Contrutor
+
     public Usuario(String matricula, String senha, String nome, String email, String telefone) {
         this.matricula = matricula;
         this.senha = senha;
@@ -14,7 +15,8 @@ public class Usuario {
         this.telefone = telefone;
     }
 
-    // getters e setters
+    //Get's e Set's 
+
     public String getMatricula() {
         return matricula;
     }
