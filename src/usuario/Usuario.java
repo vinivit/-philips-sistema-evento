@@ -1,3 +1,7 @@
+package usuario;
+
+import java.util.Date;
+
 public class Usuario {
     private String matricula;
     private String senha;

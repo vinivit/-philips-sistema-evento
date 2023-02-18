@@ -1,3 +1,7 @@
+package evento;
+
+import java.util.Date
+
 public class Endereco {
     private String rua;
     private String numero;
