@@ -9,9 +9,6 @@ public class Evento {
     private String detalhes;
     //Falta o folder
 
-
-    //Contrutor
-
     public Evento(String nome, Date dataInicio, Date dataFim, Endereco endereco, String organizadores, String detalhes) {
         this.nome = nome;
         this.dataInicio = dataInicio;
@@ -19,10 +16,8 @@ public class Evento {
         this.endereco = endereco;
         this.organizadores = organizadores;
         this.detalhes = detalhes;
- 
+        this.folder = folder;
     }
-
-    //Get's e Set's 
 
     public String getNome() {
         return nome;
