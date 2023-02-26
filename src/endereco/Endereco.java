@@ -1,6 +1,6 @@
-package evento;
+package endereco;
 
-import java.util.Date
+import java.util.Date;
 
 public class Endereco {
     private String rua;
@@ -70,5 +70,15 @@ public class Endereco {
 
     public void setPais(String pais) {
         this.pais = pais;
+    }
+
+    @Override
+    public String toString(){
+        return  this.rua+", "+
+                this.numero +", "+
+                this.bairro +", "+
+                this.cidade +", "+
+                this.estado +", "+
+                this.pais+".";
     }
 }

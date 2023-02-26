@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f463a427-5483-4c44-a8ba-1974155c3297" name="Changes" comment="criado pacotes">
-      <change afterPath="$PROJECT_DIR$/src/evento/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evento/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Certificado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Certificado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Evento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Inscricao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evento/Cadastro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evento/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/endereco/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evento/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evento/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Inscricao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +23,13 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +43,9 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinic/IdeaProjects/philips-sistema-evento&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,8 +71,26 @@
       <option name="project" value="LOCAL" />
       <updated>1675538893568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="criado pacotes">
+      <created>1676121560524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676121560524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />

@@ -1,8 +1,12 @@
 package usuario;
 
-import java.util.Date;
+import java.util.ArrayList;
 
 public class Usuario {
+
+    //private static String[] matriculas = new String[];
+    protected static ArrayList<String> matriculas = new ArrayList<String>();
+    private static int cont = 0;
     private String matricula;
     private String senha;
     private String nome;
@@ -17,7 +21,17 @@ public class Usuario {
         this.nome = nome;
         this.email = email;
         this.telefone = telefone;
+
+        matriculas.add(matricula);
+        cont++;
+
     }
+
+
+
+   // public static String[] getMatriculas(){
+   //     return matriculas;
+  //  }
 
     //Get's e Set's 
 
@@ -60,4 +74,9 @@ public class Usuario {
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+    @Override
+    public String toString (){
+        return "mátricula: "+matricula+" - nome:"+nome;
+    };
 }

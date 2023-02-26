@@ -1,26 +1,45 @@
 package evento;
 
+import endereco.Endereco;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import java.time.format.DateTimeFormatter;
 
 public class Evento {
     private String nome;
-    private Date dataInicio;
-    private Date dataFim;
     private Endereco endereco;
     private String organizadores;
     private String detalhes;
     //Falta o folder
+    private Date dataInicio;
+    private Date dataFim;
+    private Date horario;
 
-    public Evento(String nome, Date dataInicio, Date dataFim, Endereco endereco, String organizadores, String detalhes) {
+
+    private SimpleDateFormat horarioFormatado = new SimpleDateFormat("HH:mm");
+    private SimpleDateFormat dataFormatada = new SimpleDateFormat("dd/MM/yyyy");
+
+
+    public Evento(String nome, String dataInicio , String horario, String dataFim, Endereco endereco, String organizadores, String detalhes) {
         this.nome = nome;
-        this.dataInicio = dataInicio;
-        this.dataFim = dataFim;
+        try {
+            this.dataInicio = dataFormatada.parse(java.lang.String.valueOf(dataInicio));
+            this.dataFim = dataFormatada.parse(java.lang.String.valueOf(dataFim));
+            this.horario = horarioFormatado.parse(java.lang.String.valueOf(horario));
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+
+
         this.endereco = endereco;
         this.organizadores = organizadores;
         this.detalhes = detalhes;
-        this.folder = folder;
-    }
-
+        //this.folder = folder;
+    };
+/*
     public String getNome() {
         return nome;
     }
@@ -67,6 +86,11 @@ public class Evento {
 
     public void setDetalhes(String detalhes) {
         this.detalhes = detalhes;
-    }
+    } */
+
+    @Override
+    public String toString(){
+            return "Evento "+this.nome+ " na data "+dataFormatada.format(this.dataInicio)+ " - começa "+ horarioFormatado.format(this.horario) + " no Endereço: "+this.endereco;
+    };
 
 }
