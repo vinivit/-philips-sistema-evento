@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f463a427-5483-4c44-a8ba-1974155c3297" name="Changes" comment="criado pacotes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evento/Cadastro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evento/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/endereco/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evento/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evento/Evento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usuario/Inscricao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Inscricao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/usuario/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/philips-sistema-evento.iml" beforeDir="false" afterPath="$PROJECT_DIR$/philips-sistema-evento.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bancoDeDados/BancoDeDados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/endereco/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evento/Evento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario/Certificado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario/Inscricao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/usuario/Usuario.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +36,14 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2LHplzKggwroxGnTBklW9tZwRFv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,7 +56,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vinic/IdeaProjects/philips-sistema-evento&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Documents/GitHub/philips-sistema-evento&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
